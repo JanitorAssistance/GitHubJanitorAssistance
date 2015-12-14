@@ -1,8 +1,5 @@
 .. default-role:: code
 
-============
-Scenario 1
-============
 
 Browser: Firefox Operation System: Windows 8.1
 
@@ -14,6 +11,18 @@ Primary Actor: Marko
 
 Roles: Common Users
 
+============
+Idea behind
+============
+
+Marko gets an assignment from Niko at JAMK. The idea is try to configure the RobotFramework to run a successful test suite and build a story around it.
+
+
+============
+Scenario 1 
+============
+
+Marko has setted up RobotFramework in RIDE and is ready to run the tests, but decides to check the settings manually, before running the tests. He has also commented the tests for easier readability.
 
 .. code:: robotframework
 
@@ -31,6 +40,7 @@ Roles: Common Users
 Scenario 1 Tests
 =================
 
+Marko opens his computer and and starts a web browser and goes to the webpage where Python.org resides.
 
 .. code:: robotframework
 
@@ -44,6 +54,9 @@ Scenario 1 Tests
                 Page Should Contain Button    ${FORM BUTTON LOCATOR}
                 Location Should Be    ${SIGN IN URL}
 
+Marko selects login option from mainpage and types in the obtained test username and password. The login is successful and Marko can explore the python.org as a registered user. 			
+				
+				
 .. code:: robotframework
 
            *** Test Cases ***
@@ -54,6 +67,8 @@ Scenario 1 Tests
                 Page Should Contain    Your account
                 Location Should Be    ${SITE URL}/
 
+After wondering around a while, he remembers that this is just an test use for the settings and tries to remember what he needs do next. Accidentally he closes the web browser and wonders how the test handles the closing. He decides to open the browser again and go to the python.org. He notices that the login provided has successfully survided the closing and browsing can continue as usuall. 				
+				
 .. code:: robotframework
 
            *** Test Cases ***
