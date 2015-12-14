@@ -22,6 +22,8 @@ Test Navigate To User Sign In Page
     Page Should Contain Button    ${FORM BUTTON LOCATOR}
     Location Should Be    ${SIGN IN URL}
 
+.. code:: robotframework
+*** Test Cases ***
 Test Sign In User
     [Documentation]    *Verifies that after login the user is directed to the main page*
     [Tags]    login
@@ -29,6 +31,8 @@ Test Sign In User
     Page Should Contain    Your account
     Location Should Be    ${SITE URL}/
 
+.. code:: robotframework
+*** Test Cases ***
 Test Sign Out User
     [Documentation]    *Verifies that after logout the user is directed to the main page*
     [Tags]    logout
