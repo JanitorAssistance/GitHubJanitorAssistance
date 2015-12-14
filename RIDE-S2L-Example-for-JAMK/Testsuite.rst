@@ -1,5 +1,9 @@
 .. default-role:: code
 
+============
+Scenario 1
+============
+
 *** Settings ***
 Documentation     *Content overview*
 ...
@@ -9,6 +13,11 @@ Suite Teardown    Close Browser
 Force Tags        python.org
 Library           Selenium2Library
 Resource          example_testsuite_resource_file.txt
+
+=================
+Scenario 1 Tests
+=================
+
 
 .. code:: robotframework
 
