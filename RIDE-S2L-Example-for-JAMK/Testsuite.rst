@@ -4,6 +4,17 @@
 Scenario 1
 ============
 
+Browser: Firefox Operation System: Windows 8.1
+
+Markos occupation: Software engineering student at JAMK. Age: 35
+
+Marko is an older student in JAMK, learning software testing with robotframework GUI RIDE and it's extension library Selenium2Library.
+
+Primary Actor: Marko
+
+Roles: Common Users
+
+
 .. code:: robotframework
 
             *** Settings ***
