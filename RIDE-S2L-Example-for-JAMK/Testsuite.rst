@@ -34,6 +34,7 @@ Scenario 1 Tests
                 Location Should Be    ${SIGN IN URL}
 
 .. code:: robotframework
+
            *** Test Cases ***
             Test Sign In User
                 [Documentation]    *Verifies that after login the user is directed to the main page*
@@ -43,6 +44,7 @@ Scenario 1 Tests
                 Location Should Be    ${SITE URL}/
 
 .. code:: robotframework
+
            *** Test Cases ***
             Test Sign Out User
                 [Documentation]    *Verifies that after logout the user is directed to the main page*
