@@ -81,4 +81,11 @@ After wondering around a while, he remembers that this is just an test use for t
                 Location Should Be    ${SITE URL}/
 
 Happy that the test plan is successful, Marko closes the web browser and forms a documentation of the example and returns it to Niko, with a screenshot of the PASSed tests in RIDE.
-(Image at: https://github.com/JanitorAssistance/GitHubJanitorAssistance/blob/master/RIDE-S2L-Example-for-JAMK/RIDE%20test%20PASSes.JPG?raw=true)
+
+=================
+Includes for Niko:
+=================
+
+Image at: https://github.com/JanitorAssistance/GitHubJanitorAssistance/blob/master/RIDE-S2L-Example-for-JAMK/RIDE%20test%20PASSes.JPG?raw=true)
+
+Resources at: https://github.com/JanitorAssistance/GitHubJanitorAssistance/blob/master/RIDE-S2L-Example-for-JAMK/Testsuite_resource_file.txt
