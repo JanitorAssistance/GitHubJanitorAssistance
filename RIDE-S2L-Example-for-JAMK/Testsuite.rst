@@ -67,7 +67,7 @@ Marko selects login option from mainpage and types in the obtained test username
                 Page Should Contain    Your account
                 Location Should Be    ${SITE URL}/
 
-After wondering around a while, he remembers that this is just an test use for the settings and tries to remember what he needs do next. Accidentally he closes the web browser and wonders how the test handles the closing. He decides to open the browser again and go to the python.org. He notices that the login provided has successfully survided the closing and browsing can continue as usuall. 				
+After wondering around a while, he remembers that this is just an test use for the settings and tries to remember what he needs do next. Accidentally he closes the web browser and wonders how the test handles the closing. He decides to open the browser again and go to the python.org. He notices that the login provided has successfully survided the closing and browsing can continue as usuall. After a while he logs out and gets redirected to mainpage.  				
 				
 .. code:: robotframework
 
@@ -79,3 +79,6 @@ After wondering around a while, he remembers that this is just an test use for t
                 Sign Out User
                 Page Should Contain    Sign In
                 Location Should Be    ${SITE URL}/
+
+Happy that the test plan is successful, Marko closes the web browser and forms a documentation of the example and returns it to Niko, with a screenshot of the PASSed tests in RIDE.
+(Image at: https://github.com/JanitorAssistance/GitHubJanitorAssistance/blob/master/RIDE-S2L-Example-for-JAMK/RIDE%20test%20PASSes.JPG?raw=true)
